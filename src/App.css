@@ -17,7 +17,7 @@ a.nav-link {
   font-size: 1.5em;
   font-weight: bold;
   color: #fff;
-  
+
 }
 
 .navbar {
@@ -103,9 +103,11 @@ button.toggle:active {
   margin: auto auto auto auto;
   border-radius: 10px;
 }
-.user-image > *{
+
+.user-image>* {
   color: white;
 }
+
 .user-image:hover {
   box-shadow: 0 -2px 4px #999999;
 }
@@ -180,7 +182,7 @@ button.toggle:active {
 
 .card:hover {
   transform: scale(1.02);
-  box-shadow: 0px 0px 3px 2px #231c1c;
+  box-shadow: 0px 0px 2px 2px #0a0101;
 }
 
 .card__img>img {
@@ -374,9 +376,11 @@ button.toggle:active {
   .heading {
     font-size: 30px;
   }
-  .intro>p{
+
+  .intro>p {
     line-height: normal;
   }
+
   .subtitle {
     margin-top: -10px;
     font-size: 15px;
