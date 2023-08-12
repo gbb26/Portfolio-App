@@ -6,6 +6,7 @@
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   transition: all 0.4s;
+  font-family: 'Preahvihear', sans-serif;
 }
 
 *::selection {
@@ -97,7 +98,7 @@ button.toggle:active {
 
 .user-image {
   pointer-events: none;
-  width: 300px;
+  width: 500px;
   aspect-ratio: 1/1;
   background-color: inherit;
   margin: auto auto auto auto;
@@ -443,5 +444,11 @@ button.toggle:active {
     width: 95%;
     margin-left: 2.5%;
     margin-right: 2.5%;
+  }
+}
+@media screen and (max-width:500px) {
+  .user-image{
+    width:300px;
+    aspect-ratio: 1/1;
   }
 }
